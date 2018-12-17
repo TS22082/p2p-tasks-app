@@ -1,0 +1,112 @@
+h1, h3, p {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #3498db;;
+}
+
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
+.textCard {
+  height: 50px;
+  margin: auto;
+  padding: 10px;
+}
+
+.todosCard {
+  margin: auto;
+  width: 60%;
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #2980b9;
+  margin-bottom: 15px;
+}
+
+.title {
+  text-align: left;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 90% 1fr;
+  border-bottom: solid;
+  border-color: white;
+}
+
+.goHome {
+  float: right;
+  border-radius: 10px;
+  border: 2px solid white;
+  background-color: #3498db;
+  justify-self: center;
+  align-self: center;
+  font-size: .80em;
+  letter-spacing: 1.1px;
+  transition: 
+    padding .5s ease-in-out, 
+    border-color .5s ease-in-out,
+    background-color .5s ease-in-out,
+    font-size .5s ease-in-out;
+}
+
+.addLabBtn:hover, .goHome:hover {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #2980b9;
+  font-size: .90em;
+}
+
+.addTodo {
+  float: right;
+  color: white;
+  height: 80%;
+  border-radius: 10px;
+  border: solid;
+  border-color: white;
+  background-color: #3498db;
+  font-size: .80em;
+  letter-spacing: 1.1px;
+  transition: 
+    padding .5s ease-in-out, 
+    border-color .5s ease-in-out,
+    background-color .5s ease-in-out,
+    font-size .5s ease-in-out;
+}
+
+.todoInput {
+  height: 80%;
+  width: 80%;
+  color: white;
+  font-size: 1.25em;
+  border: solid;
+  border-color: white;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #3498db;
+}
+
+.todoItem {
+  background-color: #2980b9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.addTodo:hover {
+  background-color: #2980b9;
+}

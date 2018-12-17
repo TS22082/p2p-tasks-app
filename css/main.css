@@ -1,0 +1,77 @@
+h1, h3, p {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  margin: 0px;
+  display: grid;
+  grid-template-rows: 10vh 80vh 10vh;
+  grid-gap: 0px;
+}
+
+.main {
+  display: grid;
+  background-color: #3498db;
+  background-size: contain;
+  text-align: center;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.card {
+  display: grid;
+  /* background-color: #3498db; */
+  background-color: #2980b9;
+  border: solid;
+  border-radius: 10px;
+  border-color: white;
+  padding: 10px;
+  width: 60%;
+  justify-self: center;
+  align-self: center;
+}
+
+.header, .footer {
+  padding-left: 20px;
+  padding-right: 20px;
+  /* background-color: #3498db; */
+  background-color: #2980b9;
+}
+
+.footer {
+  border-top: solid;
+  border-color: white;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 90% 1fr;
+  border-bottom: solid;
+  border-color: white;
+}
+
+.addLabBtn, .goHome {
+  float: right;
+  border-radius: 10px;
+  border: solid;
+  border-color: white;
+  background-color: #3498db;
+  justify-self: center;
+  align-self: center;
+  font-size: .80em;
+  letter-spacing: 1.1px;
+  transition: 
+    padding .5s ease-in-out, 
+    border-color .5s ease-in-out,
+    background-color .5s ease-in-out,
+    font-size .5s ease-in-out;
+}
+
+.addLabBtn:hover, .goHome:hover {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-color: white;
+  background-color: #2980b9;
+  font-size: .90em;
+}
