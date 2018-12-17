@@ -3,10 +3,10 @@ $(document).ready(function() {
 });
 
 async function addTodo() {
-  todoItem = document.getElementById('todoInput').value
+  todoItem = $('.todoInput').val()
   todos.push(todoItem)
   await dash.writeFile('/data/data.json', JSON.stringify(todos))
-  $('.todosCard').append('<p class="todoItem">' + todoItem + '</p>') 
+  $('.todosCard').append('<p class="todoItem">' + todoItem + '</p>')
 }
 
 async function renderApp(){
@@ -23,7 +23,6 @@ async function renderApp(){
     todos = JSON.parse(savedTodos)
     for(i = 0; i < todos.length; i++){
       $('.todosCard').append('<p class="todoItem">' + todos[i] + '</p>')
-      console.log(todos[i])
     }
   } catch {
     todos = []
