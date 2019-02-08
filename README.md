@@ -2,7 +2,7 @@
 A persistent storage p2p app that uses the beaker browser and dat protocol to allow users to connect to the app, create a task list, and add items to the task list. Each task list is assigned a shareable dat address. 
 
 # Notes
-I think one of the greatest benifits of the beaker browser and dat is that the 2 together are built in a way that gives the user absolute control of their experience. If you'd like to edit what you see or even add your own custom features to the task list you create, go to beaker browser settings, click library, find your todo list and go crazy!
+I think one of the greatest benifits of the beaker browser and dat is that the 2 together let me (the developer) provide something purily for the user. In a cloud storage system I'de eventually have to monetize a project to pay for storage, in a p2p model thats unnessecary because Im not storing their data, they (the user) stores their data.   
 
 # Resources
 https://beakerbrowser.com/docs/ <br>
